@@ -58,6 +58,14 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>
+          <configuration>
+                <archive>
+                    <index>true</index>
+                    <manifest>
+                        <mainClass>org.com.nashka.com.Main.java.main</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
